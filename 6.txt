@@ -1,0 +1,8 @@
+def localizado_en_rango(rango,numero):
+  return numero in range (*rango)#Esta funcion de rango lo investigue, convierte la variabrle en rango =) dice si es falso o verdad
+
+  
+  
+
+print(localizado_en_rango([1,5],6))
+print(localizado_en_rango([1,5],4))

@@ -1,0 +1,16 @@
+def even_numbers(numeros):
+  pares=[]
+
+  for n in numeros:
+    if n % 2 == 0:
+      pares.append(n)
+  return pares
+
+
+
+
+
+list_number = list(range(1,11))
+print(type(list_number))
+resultado=even_numbers(list_number)
+print(resultado)

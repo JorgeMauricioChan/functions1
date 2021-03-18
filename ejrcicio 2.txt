@@ -1,0 +1,11 @@
+array = [8,2,3,0,7]
+n = len (array)
+
+def process (array,n):
+  suma = 0
+
+  for i in range(n):
+    suma+=array[i]
+  print(suma)
+
+print(process(array,n))

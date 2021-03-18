@@ -1,0 +1,13 @@
+def multip(numeros):
+  producto=1
+
+
+  for n in numeros:
+    producto*=n
+  return producto
+
+
+
+list_number=[1,2,3,4,5]
+print(type(list_number))
+print(multip(list_number))

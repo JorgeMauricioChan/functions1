@@ -1,0 +1,10 @@
+def unique_elements (lista):
+  return set (lista)
+#es una estructura de datos equivalente a conjuntos en matemáticas. ... Puede agregar y eliminar elementos de un conjunto, puede iterar los elementos del conjunto, puede realizar operaciones estándar en conjuntos (unión, intersección, diferencia). Lo investigue
+
+
+numeros=[1,1,1,2,3,3,3,4,5]
+resultado = unique_elements(numeros)
+
+print(numeros)
+print(resultado)

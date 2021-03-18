@@ -1,0 +1,16 @@
+string = 'gorgue'
+
+
+def string_reverse(string1):
+
+  string2 = ''
+  n = len(string1)
+
+  while n > 0:
+    string2 = string2 + string1[n-1]
+    n = n - 1
+  print(string2)
+
+
+
+print(string_reverse(string))
